@@ -17,6 +17,7 @@ jobs/
 log/
 loader_merge.py
 data_merge.py
+results/
 results2/
 results3/
 results(copy)/

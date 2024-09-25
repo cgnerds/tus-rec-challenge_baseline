@@ -78,7 +78,9 @@ cd tus-rec-challenge_baseline
 conda create -n freehand-US python=3.9.13
 conda activate freehand-US
 pip install -r requirements.txt
-conda install pytorch3d --no-deps -c pytorch3d
+# Downlaod files from https://anaconda.org/pytorch3d/pytorch3d/files 
+conda install pytorch3d-0.7.8-py310_cu121_pyt241.tar.bz2
+# conda install pytorch3d --no-deps -c pytorch3d
 ```
 
 #### 4. Create directories.
